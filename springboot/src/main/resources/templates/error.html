@@ -3,9 +3,11 @@
       xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-    <title>Title</title>
+    <title>统一异常处理</title>
 </head>
 <body>
-
+    <h1>Error Handler</h1>
+    <div th:text="${url}"></div>
+    <div th:text="${execption.message}"></div>
 </body>
 </html>

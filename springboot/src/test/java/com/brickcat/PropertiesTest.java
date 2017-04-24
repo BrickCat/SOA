@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -12,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * Created by mzk on 2017/3/30.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = SpringbootApplication.class)
+@SpringBootTest(classes = SpringBootApplication.class)
 public class PropertiesTest {
     @Autowired
     private LearnProperties learnProperties;
